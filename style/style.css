@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 94px;
+    background-color: #000000;
+}
+header h1{
+    color: #ffffff;
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/music-note\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-indent: -99999px;
+    float: left;
+    margin: 12px 168px 12px 100px;
+}
+header h1 a{
+    display: block;
+    width: 70px;
+    height: 70px;
+}
+header li{
+    float: left; 
+    margin: 30px 0px;
+    padding: 0px 6px;
+}
+header li a{
+    color: #ffffff;
+    padding: 5px 10px;
+    margin: 36px 0 ;
+    font-size: 18px;
+    position: relative;
+    transition: 1s;
+}
+header li a:before{
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.7s;
+}
+  header li a:hover::before {
+    width: 100%;
+}
+main{
+    padding: 52px 0px 0px 100px;
+}
+.social{
+    width: 50px;
+    height: 100px;
+    position: fixed;
+    margin-left: 1300px;
+    margin-top: 200px;
+}
+.social .facebook , .social .instagram{
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    /* text-indent: -99999px; */
+    margin: 0;
+}
+.social .facebook{
+    background-image: url(../img/fb\ 1.png);
+}
+.facebook:hover{
+    background-image: url(../img/facebook.png);
+    cursor: pointer;
+    transition: 0.6s;
+}
+.social .instagram{
+    background-image: url(../img/instagram\ 1.png);
+}
+.instagram:hover{
+    background-image: url(../img/instagram.png);
+    cursor: pointer;
+    transition: 0.6s;
+}
+.social .facebook a, .social .instagram a{
+   width: 50px;
+   font-size: 44px;
+   /* background-color: blue; */
+   opacity: 0;
+   display: block;
+}
+h2{
+    clear: both; 
+}
+article {
+    width: 300px;
+    float: left;
+    margin: 50px 138px 72px 0px ;
+}
+.mesame{
+    margin-right: 0;
+}
+.musicbox{ 
+    width: 300px;
+    height: 250px;
+    border-style: solid;
+    border-width: 1px;
+}
+.musicbox:hover {
+    box-shadow: 0px 1px 5px #000000;
+    cursor: pointer;
+}
+.musicimg {
+    width: 65px;
+    height: 65px;
+    background-image: url(../img/sound\ 1.png);
+    float: left;
+    margin-top: 66px;
+    margin-left: 8px;
+}
+h3 {
+    margin: 160px 0px 10px 14px
+  }
+  
+.musicbox p {
+    font-size: 14px;
+    margin-left: 14px;
+    cursor: pointer;
+    
+  }
+.musicbox p::after {
+    content: "...";
+  }
+  
+.like {
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/like\ 1.png);
+    position: absolute;
+    margin-left: 246px;
+    transition: 0.6s;
+}
+  
+.like:hover {
+    background-image: url(../img/like\ 2.png);
+    cursor: pointer;
+    transition: 0.6s;
+}
+  
+.meoregverdi a {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #000000;
+    position: relative;
+}
+  
+.meoregverdi a:before{
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: #000000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.7s;
+} 
+.meoregverdi a:hover::before {
+    width: 100%;
+}
+/* ---------------footer--------------------- */
+footer{
+    height: 354px;
+    width: 1348px;
+    background-color: #000000;
+    clear: both;     
+}
+.futerisart{
+    margin-top: 50px;
+    margin-left: 600px;
+    height: 238px;
+    text-align: center;
+}
+.didilogo{
+    width: 150px;
+    height: 150px;
+    background-image: url(../img/music-note\ 2.png);
+    text-indent: -99999px;
+    align-items: center;
+}
+.didilogo a{
+    display: block;
+    padding: 60px;
+}
+.futerisart ul, .footerisp {
+    margin-right: 140px;
+    margin-top: 20px;
+}
+.futerisart a {
+    color: #ffffff;
+    margin: 5px 10px;
+}
+.footerisp {
+    color: #ffffff;
+    clear: both;
+    text-align: center;
+    margin-top: 50px;
+}
+/* ------------meoregverdi----------- */
+.meoregverdi {
+    width: 280px;
+    float: left;
+    margin: 50px 158px 46px 0px;
+}
+.musikebissia{
+    width: 280px;
+    height: 300px;
+    transition: 0.6s;
+    border-radius: 6px;
+} 
+.musikebissia:hover{
+    background-color: #eeeeee;
+    box-shadow: 2px 6px 10px #eeeeee;
+    cursor: pointer;
+}
+.meoresh{
+    font-size: 24px;
+    margin-left: 1px;
+    margin-bottom: 40px;
+}
+.musikebissia li, .musikebissia2 li{
+    width: 100%;
+    height: 21px; 
+}
+.musikebissia li a, .musikebissia2 li a{
+    height: 21px;
+    width: 100%;
+    font-size: 18px;  
+}
+.meoresfoto{
+    clear: both;
+    margin-left: 450px;
+}
+.meoresfoto .foto{
+    width: 65px;
+    height: 65px;
+    background-image: url(../img/sound\ 5.png);
+    float: left;
+}
+.qveda{
+    width: 100%;
+    clear: both;
+}
+.qveda .meoregverdi{
+    width: 280px;
+    float: left;
+    margin: 106px 30px 140px 0px;
+}
+.musikebissia2{
+    width: 280px;
+    height: 300px;
+    transition: 0.6s;
+    border-radius: 6px;
+}
+.musikebissia2:hover{
+    background-color: #eeeeee;
+    box-shadow: 2px 6px 10px #eeeeee;
+    cursor: pointer;
+}
+.meoresbolo{
+    margin: 148px 0px 148px 460px;
+}
